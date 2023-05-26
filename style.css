@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffead2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  color: #f08c8c;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.todoCard {
+  width: 300px;
+  min-height: 480px;
+  border-radius: 20px;
+  background: #ffead2;
+  box-shadow: 5px 5px 23px #baab99, -5px -5px 23px #ffffff;
+  padding: 12px 20px;
+}
+input {
+  width: 210px;
+  height: 32px;
+  border: none;
+  border-radius: 20px;
+  background-color: #dbdfea;
+  border: 2px solid #8294c4;
+  outline: none;
+  padding: 0 16px;
+  color: rgb(50, 45, 80);
+  margin-bottom: 24px;
+}
+.add-todo {
+  width: 28px;
+  height: 28px;
+  margin-left: 12px;
+  background-color: #8294c4;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  color: whitesmoke;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  border: 1px dashed #acb1d6;
+  margin-bottom: 24px;
+}
+.todo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0 12px;
+  background-color: #acb1d6;
+  border: none;
+  color: #025464;
+  margin-bottom: 8px;
+}
+.delete {
+  cursor: pointer;
+}
